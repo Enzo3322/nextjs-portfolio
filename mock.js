@@ -76,3 +76,36 @@ export const projectsArr = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
 	},
 ];
+
+export const skillsArr = [
+	{
+		icon: '/icons/phone.svg',
+		title: 'Responsive design',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+	},
+	{
+		icon: '/icons/dev.svg',
+		title: 'Javascript',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+	},
+	{
+		icon: '/icons/interaction.svg',
+		title: 'Comunicação',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+	},
+	{
+		icon: '/icons/people.svg',
+		title: 'Cooworking',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+	},
+	{
+		icon: '/icons/comunication.svg',
+		title: 'Interação',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+	},
+];

@@ -13,10 +13,12 @@
 			width: 100%;
 			margin: 0 auto;
 			.action {
-				a {
+				button {
 					line-height: 2rem;
 					font-size: 1.5rem;
 					font-weight: semi-bold;
+					background-color: transparent;
+					border: 0;
 				}
 				.open_menu {
 					display: none;
@@ -27,9 +29,13 @@
 				align-items: center;
 				li {
 					padding: 0.625rem 1.25rem;
-					a {
+					button {
 						color: unset;
+						background-color: transparent;
+						border: 0;
 						text-decoration: none;
+						border-bottom: 2px solid transparent;
+						font-size: 16px;
 
 						&:hover {
 							border-bottom: 2px solid var(--primary);
@@ -57,10 +63,12 @@
 				justify-content: space-between;
 				width: 100%;
 
-				a {
+				button {
 					padding: 10px 20px;
 					font-size: 20px;
 					font-weight: bold;
+					background-color: transparent;
+					border: 0;
 				}
 				.open_menu {
 					background-color: unset;
@@ -89,10 +97,13 @@
 						margin-top: 20px;
 					}
 
-					a {
+					button {
 						color: unset;
 						text-decoration: none;
+						border: 0;
 						border-bottom: 2px solid #ffffff1c;
+						font-size: 16px;
+						background-color: transparent;
 						&:hover {
 							border-bottom: 2px solid var(--primary);
 						}
@@ -119,9 +130,12 @@
 						margin-top: 20px;
 					}
 
-					a {
+					button {
 						color: unset;
+						border: 0;
+						font-size: 16px;
 						border-bottom: 2px solid #ffffff1c;
+						background-color: transparent;
 						text-decoration: none;
 						&:hover {
 							border-bottom: 2px solid var(--primary);

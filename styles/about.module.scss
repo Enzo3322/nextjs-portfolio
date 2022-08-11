@@ -1,0 +1,96 @@
+.about {
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 4rem;
+	@media (max-width: 40rem) {
+		padding: 0 20px;
+	}
+	.profile {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 8rem;
+		@media (max-width: 40rem) {
+			flex-direction: column;
+		}
+		.image {
+			img {
+				@media (max-width: 40rem) {
+					max-width: 100%;
+				}
+			}
+		}
+		.text {
+			margin-left: 3rem;
+			@media (max-width: 40rem) {
+				margin-left: 0;
+			}
+			h1 {
+				font-size: 3.5rem;
+				margin-bottom: 1.5rem;
+				@media (max-width: 40rem) {
+					font-size: 2.3rem;
+					margin-top: 20px;
+				}
+				span {
+					color: var(--primary);
+				}
+			}
+			p {
+				font-size: 1rem;
+				font-family: Poppins;
+				font-weight: 300;
+				margin-top: 1.25rem;
+				line-height: 1.75rem;
+			}
+			a {
+				color: var(--primary);
+			}
+		}
+	}
+
+	.skills {
+		.title {
+			h2 {
+				font-size: 2.125rem;
+				text-align: center;
+				font-weight: 400;
+				margin-bottom: 50px;
+			}
+		}
+		.container {
+			.grid {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				margin-bottom: 50px;
+				gap: 20px;
+				@media (max-width: 40rem) {
+					gap: 24px;
+				}
+				@media (max-width: 40rem) {
+					flex-wrap: unset;
+					flex-direction: column;
+				}
+				.skill {
+					width: 30%;
+					@media (max-width: 40rem) {
+						width: 100%;
+					}
+					background-color: var(--l-black);
+					border-radius: 8px;
+					padding: 24px;
+					img {
+					}
+					h3 {
+						font-size: 30px;
+						font-weight: 500;
+					}
+					p {
+						line-height: 28px;
+					}
+				}
+			}
+		}
+	}
+}
