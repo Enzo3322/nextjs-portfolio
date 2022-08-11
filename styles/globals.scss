@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+:root {
+	--black: #171718;
+	--l-black: #1c1e22;
+	--border: #26292d;
+	--primary: #5c62ec;
+	--aqua: #85bfd1;
+	--white: #fff;
+	--l-white: #fafafa;
+}
+
+html,
+body {
+	background-color: var(--black);
+	font-family: DM sans;
+	color: var(--white);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+}
+
+a,
+button {
+	cursor: pointer;
+	color: unset;
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+section {
+	max-width: 1120px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+::-moz-selection {
+	color: #ffffff;
+	background: var(--primary);
+}
+
+::selection {
+	color: #ffffff;
+	background: var(--primary);
+}

@@ -1,0 +1,134 @@
+@media (min-width: 40rem) {
+	.header {
+		background-color: var(--black);
+		height: 4.3125rem;
+		border-bottom: 1px solid var(--border);
+		display: flex;
+		align-items: center;
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			max-width: 1140px;
+			width: 100%;
+			margin: 0 auto;
+			.action {
+				a {
+					line-height: 2rem;
+					font-size: 1.5rem;
+					font-weight: semi-bold;
+				}
+				.open_menu {
+					display: none;
+				}
+			}
+			ul {
+				display: flex;
+				align-items: center;
+				li {
+					padding: 0.625rem 1.25rem;
+					a {
+						color: unset;
+						text-decoration: none;
+
+						&:hover {
+							border-bottom: 2px solid var(--primary);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 40rem) {
+	.header {
+		height: 3.75rem;
+		font-family: DM sans;
+		background-color: var(--black);
+		border-bottom: 1px solid var(--border);
+		display: flex;
+		align-items: center;
+		.navbar {
+			display: flex;
+			width: 100%;
+			.action {
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+
+				a {
+					padding: 10px 20px;
+					font-size: 20px;
+					font-weight: bold;
+				}
+				.open_menu {
+					background-color: unset;
+					border: 0;
+					padding: 10px 20px;
+				}
+			}
+			ul.hide {
+				position: absolute;
+				width: 100vw;
+				height: calc(100vh - 61px);
+				left: -100vw;
+				position: absolute;
+				top: 3.8125rem;
+				background-color: var(--black);
+				border-right: 1px solid var(--border);
+				z-index: 999;
+				display: flex;
+				flex-direction: column;
+				li {
+					padding: 0.625rem 1.25rem;
+					margin-bottom: 20px;
+					text-align: center;
+					font-size: 1.3rem;
+					&:first-child {
+						margin-top: 20px;
+					}
+
+					a {
+						color: unset;
+						text-decoration: none;
+						border-bottom: 2px solid #ffffff1c;
+						&:hover {
+							border-bottom: 2px solid var(--primary);
+						}
+					}
+				}
+			}
+			ul.show {
+				position: absolute;
+				top: 3.8125rem;
+				background-color: var(--black);
+				z-index: 999;
+				display: flex;
+				flex-direction: column;
+				width: 100vw;
+				height: calc(100vh - 61px);
+				border-right: 1px solid var(--border);
+
+				li {
+					padding: 0.625rem 1.25rem;
+					margin-bottom: 20px;
+					text-align: center;
+					font-size: 1.3rem;
+					&:first-child {
+						margin-top: 20px;
+					}
+
+					a {
+						color: unset;
+						border-bottom: 2px solid #ffffff1c;
+						text-decoration: none;
+						&:hover {
+							border-bottom: 2px solid var(--primary);
+						}
+					}
+				}
+			}
+		}
+	}
+}
