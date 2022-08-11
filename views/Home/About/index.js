@@ -44,7 +44,7 @@ export const About = () => {
 					</div>
 
 					<Link href="/about/">
-						<div>
+						<div className={styles.link}>
 							See more <ArrowRight />
 						</div>
 					</Link>

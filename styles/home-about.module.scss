@@ -82,5 +82,24 @@
 				}
 			}
 		}
+		.link {
+			border: 1px solid #eee;
+			padding: 10px;
+			text-align: center;
+			border-radius: 6px;
+			margin-top: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			cursor: pointer;
+			width: 140px;
+			@media (min-width: 40rem) {
+				margin-top: 0px;
+			}
+			&:hover {
+				background-color: var(--primary);
+				border: 1px solid transparent;
+			}
+		}
 	}
 }
