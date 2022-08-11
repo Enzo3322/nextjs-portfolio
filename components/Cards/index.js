@@ -9,7 +9,7 @@ export const Cards = () => {
 		<div className={styles.grid}>
 			{projectsArr.map((a, i) => (
 				<motion.a
-					href={`/projects?pid=${a.pid}`}
+					href={`/project?pid=${a.pid}`}
 					whileHover={{ scale: 1.03 }}
 					key={i}
 					className={styles.image}
