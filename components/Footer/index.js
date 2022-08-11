@@ -15,10 +15,10 @@ export const Footer = () => {
 							<Link href="/">Home</Link>
 						</li>
 						<li>
-							<a href="about">About</a>
+							<Link href="/about/">About</Link>
 						</li>
 						<li>
-							<Link href="projects">Projects</Link>
+							<Link href="/projects/">Projects</Link>
 						</li>
 					</ul>
 				</div>
@@ -29,7 +29,9 @@ export const Footer = () => {
 							<Link href="mailto:enzo.spag14@gmail.com">Email</Link>
 						</li>
 						<li>
-							<a href="https://www.linkedin.com/in/enzospagnolli/">Linkedin</a>
+							<Link href="https://www.linkedin.com/in/enzospagnolli/">
+								Linkedin
+							</Link>
 						</li>
 					</ul>
 				</div>

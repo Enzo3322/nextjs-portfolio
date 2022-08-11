@@ -14,7 +14,9 @@ export const Cards = () => {
 					key={i}
 					className={styles.image}
 				>
-					<img src={a.banner1} alt="" />
+					<picture>
+						<img src={a.banner1} alt="" />
+					</picture>
 				</motion.a>
 			))}
 		</div>

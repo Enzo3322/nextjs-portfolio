@@ -12,6 +12,7 @@
 		max-width: 900px;
 		margin: 0 auto;
 		display: grid;
+		position: relative;
 		grid-template-columns: 1fr 1fr;
 		@media (max-width: 40rem) {
 			grid-template-columns: 1fr;

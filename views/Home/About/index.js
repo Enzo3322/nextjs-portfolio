@@ -10,7 +10,9 @@ export const About = () => {
 		<section className={styles.about}>
 			<motion.div whileHover={{ scale: 1.02 }} className={styles.container}>
 				<div className={styles.left}>
-					<img src="/me.jpg" alt="" />
+					<picture>
+						<img src="/me.jpg" alt="" />
+					</picture>
 				</div>
 				<div className={styles.right}>
 					<div>
@@ -41,10 +43,10 @@ export const About = () => {
 						</p>
 					</div>
 
-					<Link href="/about">
-						<a>
+					<Link href="/about/">
+						<div>
 							See more <ArrowRight />
-						</a>
+						</div>
 					</Link>
 				</div>
 			</motion.div>

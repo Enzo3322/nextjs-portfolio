@@ -43,17 +43,17 @@ export const Header = () => {
 						</Link>
 					</li>
 					<li>
-						<Link href="about" onClick={() => setShow(false)}>
+						<Link href="/about" onClick={() => setShow(false)}>
 							About
 						</Link>
 					</li>
 					<li>
-						<Link href="projects" onClick={() => setShow(false)}>
+						<Link href="/projects" onClick={() => setShow(false)}>
 							Projects
 						</Link>
 					</li>
 					<li>
-						<Link href="contact" onClick={() => setShow(false)}>
+						<Link href="/contact" onClick={() => setShow(false)}>
 							Contact
 						</Link>
 					</li>
