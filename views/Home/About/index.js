@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight } from '../../../assets/icons';
 import styles from '../../../styles/home-about.module.scss';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export const About = () => {
