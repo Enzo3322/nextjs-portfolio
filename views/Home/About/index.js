@@ -11,7 +11,7 @@ export const About = () => {
 			<motion.div whileHover={{ scale: 1.02 }} className={styles.container}>
 				<div className={styles.left}>
 					<picture>
-						<img src="/me.jpg" alt="" />
+						<img src="/me.svg" alt="Enzo Spagnolli" />
 					</picture>
 				</div>
 				<div className={styles.right}>

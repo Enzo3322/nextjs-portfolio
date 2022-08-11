@@ -44,3 +44,27 @@
 		}
 	}
 }
+
+.projects_main {
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+	h1 {
+		text-align: center;
+		margin: 50px 0;
+	}
+	div {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		@media (max-width: 40rem) {
+			grid-template-columns: 1fr;
+		}
+		gap: 20px;
+		a {
+			img {
+				max-width: 100%;
+			}
+		}
+	}
+}

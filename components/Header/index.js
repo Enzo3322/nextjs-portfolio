@@ -45,7 +45,7 @@ export const Header = () => {
 					)}
 				</div>
 				<motion.ul
-					animate={{ left: show ? 0 : -500 }}
+					animate={{ left: show ? 0 : -640 }}
 					initial={{ left: -700 }}
 					transition={{ duration: 0.8 }}
 					className={`${show ? styles.show : styles.hide}`}

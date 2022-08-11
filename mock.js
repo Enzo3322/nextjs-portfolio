@@ -64,8 +64,8 @@ export const projectsArr = [
 		banner2: '/design.jpg',
 		banner3: '/design.jpg',
 		banner4: '/design.jpg',
-		alt: 'Nome do projeto',
-		title: 'Nome do projeto',
+		alt: 'Lesma Jiu Jitsu',
+		title: 'Lesma Jiu Jitsu',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.\n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur. \nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
 		concepts:
