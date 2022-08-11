@@ -15,9 +15,9 @@ export default function About() {
 						Enzo <span>Spagnolli</span>
 					</h1>
 					<p>
-						I've been a web developer for just over 3 years, I have experience
-						in web and mobile development, currently working as a senior
-						developer in an e-commerce project.
+						I&apos;ve been a web developer for just over 3 years, I have
+						experience in web and mobile development, currently working as a
+						senior developer in an e-commerce project.
 					</p>
 					<p>
 						I have VTEX certifications as an IO developer and implementation
