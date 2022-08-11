@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Facebook, Instagram, Linkedin } from '../../assets/icons';
 import styles from './styles.module.scss';
 
@@ -10,12 +11,14 @@ export const Footer = () => {
 				</div>
 				<div className={styles.col_2}>
 					<ul>
-						<li>Home</li>
 						<li>
-							<a href="#">About</a>
+							<Link href="/">Home</Link>
 						</li>
 						<li>
-							<a href="#">Projects</a>
+							<a href="about">About</a>
+						</li>
+						<li>
+							<Link href="projects">Projects</Link>
 						</li>
 					</ul>
 				</div>
@@ -23,27 +26,27 @@ export const Footer = () => {
 					<ul>
 						<li>Contact</li>
 						<li>
-							<a href="#">Email</a>
+							<Link href="mailto:enzo.spag14@gmail.com">Email</Link>
 						</li>
 						<li>
-							<a href="#">Linkedin</a>
+							<a href="https://www.linkedin.com/in/enzospagnolli/">Linkedin</a>
 						</li>
 					</ul>
 				</div>
 				<div className={styles.col_4}>
 					<ul>
 						<li>Social</li>
-						<div className={styles.social}>
-							<a href="#">
+						<li className={styles.social}>
+							<Link href="#">
 								<Facebook />
-							</a>
-							<a href="https://www.linkedin.com/in/enzospagnolli/">
+							</Link>
+							<Link href="https://www.linkedin.com/in/enzospagnolli/">
 								<Linkedin />
-							</a>
-							<a href="https://www.instagram.com/_enzospagnolli/">
+							</Link>
+							<Link href="https://www.instagram.com/_enzospagnolli/">
 								<Instagram />
-							</a>
-						</div>
+							</Link>
+						</li>
 					</ul>
 				</div>
 			</div>

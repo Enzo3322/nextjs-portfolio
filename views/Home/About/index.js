@@ -3,13 +3,14 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from '../../../assets/icons';
 import styles from '../../../styles/home-about.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const About = () => {
 	return (
 		<section className={styles.about}>
 			<motion.div whileHover={{ scale: 1.02 }} className={styles.container}>
 				<div className={styles.left}>
-					<img src="/me.png" alt="" />
+					<img src="/me.jpg" alt="" />
 				</div>
 				<div className={styles.right}>
 					<div>
@@ -40,9 +41,11 @@ export const About = () => {
 						</p>
 					</div>
 
-					<button>
-						See more <ArrowRight />
-					</button>
+					<Link href="/about">
+						<a>
+							See more <ArrowRight />
+						</a>
+					</Link>
 				</div>
 			</motion.div>
 		</section>
