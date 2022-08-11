@@ -12,7 +12,7 @@
 	h1 {
 		margin-bottom: 40px;
 		font-size: 48px;
-		font-family: Poppins;
+		font-family: Poppins !important;
 		font-weight: 600;
 		@media (max-width: 40rem) {
 			font-size: 2rem;
@@ -20,7 +20,7 @@
 	}
 	h2 {
 		font-size: 34px;
-		font-family: Poppins;
+		font-family: Poppins !important;
 		margin-top: 40px;
 		font-weight: 500;
 		@media (max-width: 40rem) {
@@ -30,7 +30,7 @@
 	p {
 		margin: 20px 0;
 		line-height: 28px;
-		font-family: Poppins;
+		font-family: Poppins !important;
 		font-weight: 300;
 		@media (max-width: 40rem) {
 			font-size: 16px;
