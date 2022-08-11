@@ -15,22 +15,18 @@ export default function About() {
 						Enzo <span>Spagnolli</span>
 					</h1>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-						mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-						fringilla, mattis ligula consectetur, ultrices um auctor ornare leo,
-						non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
-						maximus ante fermentum sit amet. Pellentesque commodo lacus at
-						sodales sodales. Quisque sagittis orci ut diam condimentum, vel
-						euismod erat placerat. In iaculis arcu eros, eget tempus orci
-						facilisis id.
+						I've been a web developer for just over 3 years, I have experience
+						in web and mobile development, currently working as a senior
+						developer in an e-commerce project.
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
-						mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-						fringilla, mattis ligula consectetur, ultrices um auctor ornare leo,
-						non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at
-						maximus ante fermentum sit amet. Pellentesque commodo lacus at
-						sodales sodales. Quisque sagittis orci ut .
+						I have VTEX certifications as an IO developer and implementation
+						specialist and I have great affinity with the platform.
+					</p>
+					<p>
+						I am passionate about development for embedded systems such as
+						ESP-8266 and ESP-32, and in my spare time I study c++ for
+						applications in industrial systems.
 					</p>
 					<a href="mailto:enzo.spag14@gmail.com">enzo.spag14@gmail.com</a>
 				</div>
@@ -38,7 +34,7 @@ export default function About() {
 
 			<div className={styles.skills}>
 				<div className={styles.title}>
-					<h2>Minhas skills</h2>
+					<h2>Skills</h2>
 				</div>
 				<div className={styles.container}>
 					<div className={styles.grid}>

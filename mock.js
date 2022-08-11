@@ -82,30 +82,30 @@ export const skillsArr = [
 		icon: '/icons/phone.svg',
 		title: 'Responsive design',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'I have experience in developing responsive interfaces aimed at accessibility.',
 	},
 	{
 		icon: '/icons/dev.svg',
 		title: 'Javascript',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'I have advanced knowledge in the language, applied in frontend and backend.',
 	},
 	{
 		icon: '/icons/interaction.svg',
-		title: 'Comunicação',
+		title: 'Communication',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'I have worked in teams that work in the asynchronous communication model.',
 	},
 	{
 		icon: '/icons/people.svg',
 		title: 'Cooworking',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'I work well in a team, and I am able to assist developers in developing activities.ctetur.',
 	},
 	{
 		icon: '/icons/comunication.svg',
-		title: 'Interação',
+		title: 'Interaction',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'I receive all kinds of feedback very well and I am always looking to improve my technical and professional skills.',
 	},
 ];
