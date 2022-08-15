@@ -2,8 +2,13 @@ import React from 'react';
 import { Download } from '../../../assets/icons';
 import { motion } from 'framer-motion';
 import styles from '../../../styles/home-hero.module.scss';
+import { useRouter } from 'next/router';
 
 export const Hero = () => {
+	const router = useRouter();
+	const handleClick = (href) => {
+		router.push(href);
+	};
 	return (
 		<motion.section
 			className={styles.hero}
@@ -21,7 +26,13 @@ export const Hero = () => {
 			</motion.h1>
 			<p>This is my portfolio!</p>
 			<div>
-				<motion.button whileHover={{ scale: 1.05 }} className={styles.primary}>
+				<motion.button
+					whileHover={{ scale: 1.05 }}
+					className={styles.primary}
+					onClick={() => {
+						handleClick('/projects');
+					}}
+				>
 					Projects
 				</motion.button>
 				<motion.button whileHover={{ scale: 1.05 }}>
