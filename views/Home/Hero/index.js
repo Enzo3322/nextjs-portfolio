@@ -9,6 +9,7 @@ export const Hero = () => {
 	const handleClick = (href) => {
 		router.push(href);
 	};
+
 	return (
 		<motion.section
 			className={styles.hero}
