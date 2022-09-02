@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Close, Open } from '../../assets/icons';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import styles from './styles.module.scss';
 import { useRouter } from 'next/router';
 
@@ -16,6 +15,15 @@ export const Header = () => {
 			setMobile(true);
 		}
 	}, []);
+
+	useEffect(() => {
+		if (show) {
+			document.body.style.overflowY = 'hidden'
+		} else {
+			document.body.style.overflowY = 'auto'
+		}
+	}, [show])
+
 	const router = useRouter();
 	const handleClick = (href) => {
 		router.push(href);

@@ -36,9 +36,9 @@ export const Hero = () => {
 				>
 					Projects
 				</motion.button>
-				<motion.button whileHover={{ scale: 1.05 }}>
+				{/* <motion.button whileHover={{ scale: 1.05 }}>
 					<Download /> Download CV
-				</motion.button>
+				</motion.button> */}
 			</div>
 		</motion.section>
 	);

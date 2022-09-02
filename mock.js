@@ -3,20 +3,20 @@ export const projectsArr = [
 		pid: 1,
 		category: 'advocate',
 		alt: 'Law project',
-		title: 'Law project',
+		title: 'Suzana Moraes Advocate',
 		link: 'https://law-eta.vercel.app/',
 		banner1: '/law.jpg',
-		banner2: '/pattern.jpg',
-		banner3: '/nextreactnode.jpg',
-		banner4: '/colors.jpg',
+		banner2: '',
+		banner3: '',
+		banner4: '',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.\n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur. \nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Projeto em desenvolvimento de um escritório de advocacia.',
 		concepts:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Desenvolvido em NextJs com o uso de Scss, SwiperJs e React Icons',
 		toolsApllyed:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'NextJs, Scss, Swiper, React Icons, Vercel.',
 		resume:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Tempo de desenvolvimento: 2 dias',
 	},
 	{
 		pid: 2,
@@ -25,55 +25,55 @@ export const projectsArr = [
 		title: 'NCS Consultoria',
 		link: 'https://ncsconsultoriaintegrada.com/',
 		banner1: '/ncs.jpg',
-		banner2: '/design.jpg',
-		banner3: '/design.jpg',
-		banner4: '/design.jpg',
-		banner5: '/design.jpg',
+		banner2: '',
+		banner3: '',
+		banner4: '',
+		banner5: '',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.\n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur. \nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Projeto desenvolvido para divulgação de uma empresa de consultoria aduaneira no com Atuação nos portos de Santos, Paranaguá, Suape, Itajaí e Rio de Janeiro.',
 		concepts:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'O projeto foi desenvolvido com Bootstrap e hospedado no ambiente da hostgator de páginas estáticas.',
 		toolsApllyed:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Bootstrap, Javascript, Hostgator',
 		resume:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Desenvolvimento completo do projeto: 3 dias',
 	},
 	{
 		pid: 3,
 		category: 'study',
 		link: 'https://github-search-fawn.vercel.app/',
 		banner1: '/github.jpg',
-		banner2: '/design.jpg',
-		banner3: '/design.jpg',
-		banner4: '/design.jpg',
+		banner2: '',
+		banner3: '',
+		banner4: '',
 		alt: 'Github search profile',
 		title: 'Github search profile',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.\n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur. \nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Projeto desenvolvido para consulta de perfis com informações basicas captadas pela API do github, com consultas realizadas baseadas no nome de usário.',
 		concepts:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Projeto desenvolvido em ReactJS e Scss, e hospedado em ambiente Vercel.',
 		toolsApllyed:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'React, Sass, Vercel',
 		resume:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Tempo de desenvolvimento: 2 horas',
 	},
 	{
 		pid: 4,
 		category: 'sport',
 		banner1: '/lesma.jpg',
-		banner2: '/design.jpg',
-		banner3: '/design.jpg',
-		banner4: '/design.jpg',
+		banner2: '',
+		banner3: '',
+		banner4: '',
 		alt: 'Lesma Jiu Jitsu',
 		title: 'Lesma Jiu Jitsu',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.\n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur. \nLorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Site da Equipe lesma Jiu Jitsu, desenvolvido para fins de divulgação.',
 		concepts:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Desenvolvido em ReactJS com o uso de Scss e SwiperJs',
 		toolsApllyed:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'React, Vercel, Scss, Swiper, React Icons',
 		resume:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur.',
+			'Tempo de desenvolvimento: 5 horas',
 	},
 ];
 
