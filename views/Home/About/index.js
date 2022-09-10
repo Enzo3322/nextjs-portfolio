@@ -16,29 +16,30 @@ export const About = () => {
 				<div className={styles.right}>
 					<div>
 						<h2>About me</h2>
-
 						<p>
-							I&lsquo;ve been a software developer for just over 3 years, I have
-							advanced experience in:
+							I have just over 3 years of experience with web development, I've
+							worked with:
 						</p>
+
 						<ul>
 							<li>Javascript</li>
 							<li>Typescript</li>
-							<li>Reactjs</li>
+							<li>ReactJs</li>
+							<li>NextJs</li>
 							<li>VtexIO</li>
-							<li>Nodejs</li>
+							<li>NodeJs</li>
 							<li>Heroku</li>
 							<li>Cypress</li>
 							<li>Figma</li>
 							<li>Vercel</li>
 							<li>Jira</li>
-							<li>Gitlab</li>
+							<li>Graphql</li>
 							<li>Azure Devops</li>
-							<li>Trello</li>
 							<li>Runrun.it</li>
 						</ul>
 						<p>
-							Actually i work on the development of e-commerce based on CMS VTEX
+							Currently I work in the development of Ecommerces in a Brazilian
+							agency and I&apos;m open to new opportunities.
 						</p>
 					</div>
 
