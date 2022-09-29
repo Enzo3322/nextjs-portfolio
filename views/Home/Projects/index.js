@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Cards } from '../../../components/Cards';
 import styles from '../../../styles/home-projects.module.scss';
 import { useRouter } from 'next/router';
+import { ProjectsArr } from '../../../mock';
 
 export const HomeProjects = () => {
 	const router = useRouter();
@@ -13,7 +14,7 @@ export const HomeProjects = () => {
 	return (
 		<section className={styles.home_projects}>
 			<h2>Projects</h2>
-			<Cards number={2} />
+			<Cards number={2} projects={ProjectsArr} />
 			<div>
 				<motion.button
 					onClick={() => {

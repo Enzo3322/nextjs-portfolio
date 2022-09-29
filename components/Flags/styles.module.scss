@@ -1,0 +1,14 @@
+.flag_container {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	gap: 10px;
+	margin-top: 5px;
+	li {
+		padding: 5px 10px;
+		border-radius: 20px;
+		font-size: 12px;
+		color: #fff;
+		text-shadow: 1px 1px black;
+	}
+}

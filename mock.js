@@ -1,4 +1,4 @@
-export const projectsArr = [
+export const ProjectsArr = [
 	{
 		pid: 1,
 		category: 'advocate',
@@ -9,14 +9,31 @@ export const projectsArr = [
 		banner2: '',
 		banner3: '',
 		banner4: '',
-		description:
-			'Projeto em desenvolvimento de um escritório de advocacia.',
+		description: 'Projeto em desenvolvimento de um escritório de advocacia.',
 		concepts:
 			'Desenvolvido em NextJs com o uso de Scss, SwiperJs e React Icons',
-		toolsApllyed:
-			'NextJs, Scss, Swiper, React Icons, Vercel.',
-		resume:
-			'Tempo de desenvolvimento: 2 dias',
+		toolsApplied: 'NextJs, Scss, Swiper, React Icons, Vercel.',
+		resume: 'Tempo de desenvolvimento: 2 dias',
+		stacks: [
+			{
+				name: 'Vercel',
+			},
+			{
+				name: 'NodeJs',
+			},
+			{
+				name: 'Sass',
+			},
+			{
+				name: 'NextJs',
+			},
+			{
+				name: 'SwiperJs',
+			},
+			{
+				name: 'Typescript',
+			},
+		],
 	},
 	{
 		pid: 2,
@@ -33,10 +50,19 @@ export const projectsArr = [
 			'Projeto desenvolvido para divulgação de uma empresa de consultoria aduaneira no com Atuação nos portos de Santos, Paranaguá, Suape, Itajaí e Rio de Janeiro.',
 		concepts:
 			'O projeto foi desenvolvido com Bootstrap e hospedado no ambiente da hostgator de páginas estáticas.',
-		toolsApllyed:
-			'Bootstrap, Javascript, Hostgator',
-		resume:
-			'Desenvolvimento completo do projeto: 3 dias',
+		toolsApplied: 'Bootstrap, Javascript, Hostgator',
+		resume: 'Desenvolvimento completo do projeto: 3 dias',
+		stacks: [
+			{
+				name: 'Bootstrap',
+			},
+			{
+				name: 'Javascript',
+			},
+			{
+				name: 'Hostgator',
+			},
+		],
 	},
 	{
 		pid: 3,
@@ -52,10 +78,19 @@ export const projectsArr = [
 			'Projeto desenvolvido para consulta de perfis com informações basicas captadas pela API do github, com consultas realizadas baseadas no nome de usário.',
 		concepts:
 			'Projeto desenvolvido em ReactJS e Scss, e hospedado em ambiente Vercel.',
-		toolsApllyed:
-			'React, Sass, Vercel',
-		resume:
-			'Tempo de desenvolvimento: 2 horas',
+		toolsApplied: 'React, Sass, Vercel',
+		resume: 'Tempo de desenvolvimento: 2 horas',
+		stacks: [
+			{
+				name: 'Vercel',
+			},
+			{
+				name: 'React',
+			},
+			{
+				name: 'Sass',
+			},
+		],
 	},
 	{
 		pid: 4,
@@ -68,16 +103,30 @@ export const projectsArr = [
 		title: 'Lesma Jiu Jitsu',
 		description:
 			'Site da Equipe lesma Jiu Jitsu, desenvolvido para fins de divulgação.',
-		concepts:
-			'Desenvolvido em ReactJS com o uso de Scss e SwiperJs',
-		toolsApllyed:
-			'React, Vercel, Scss, Swiper, React Icons',
-		resume:
-			'Tempo de desenvolvimento: 5 horas',
+		concepts: 'Desenvolvido em ReactJS com o uso de Scss e SwiperJs',
+		toolsApplied: 'React, Vercel, Scss, Swiper, React Icons',
+		resume: 'Tempo de desenvolvimento: 5 horas',
+		stacks: [
+			{
+				name: 'Vercel',
+			},
+			{
+				name: 'Sass',
+			},
+			{
+				name: 'Vite',
+			},
+			{
+				name: 'SwiperJs',
+			},
+			{
+				name: 'Javasript',
+			},
+		],
 	},
 ];
 
-export const skillsArr = [
+export const SkillsArr = [
 	{
 		icon: '/icons/phone.svg',
 		title: 'Responsive design',
@@ -108,4 +157,21 @@ export const skillsArr = [
 		description:
 			'I receive all kinds of feedback very well and I am always looking to improve my technical and professional skills.',
 	},
+];
+
+export const TollsArr = [
+	{ name: 'Javascript' },
+	{ name: 'Typescript' },
+	{ name: 'ReactJs' },
+	{ name: 'NextJs' },
+	{ name: 'VtexIO' },
+	{ name: 'NodeJs' },
+	{ name: 'Heroku' },
+	{ name: 'Cypress' },
+	{ name: 'Figma' },
+	{ name: 'Vercel' },
+	{ name: 'Jira' },
+	{ name: 'Graphql' },
+	{ name: 'Azure Devops' },
+	{ name: 'Runrun.it' },
 ];

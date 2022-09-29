@@ -1,4 +1,4 @@
-import { skillsArr } from '../mock';
+import { SkillsArr } from '../mock';
 import { motion } from 'framer-motion';
 import styles from '../styles/about.module.scss';
 export default function About() {
@@ -38,7 +38,7 @@ export default function About() {
 				</div>
 				<div className={styles.container}>
 					<div className={styles.grid}>
-						{skillsArr.map((skill, i) => (
+						{SkillsArr.map((skill, i) => (
 							<motion.div
 								whileHover={{ scale: 1.02 }}
 								key={i}

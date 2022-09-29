@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from '../../../assets/icons';
 import styles from '../../../styles/home-about.module.scss';
 import Link from 'next/link';
+import { ToolsComponent } from '../../../components/Tolls';
+import { TollsArr } from '../../../mock';
 
 export const About = () => {
 	return (
@@ -17,28 +19,12 @@ export const About = () => {
 					<div>
 						<h2>About me</h2>
 						<p>
-							I have just over 3 years of experience with web development, I've
-							worked with:
+							I have just over 3 years of experience with web development,
+							I&apos;ve worked with:
 						</p>
-
-						<ul>
-							<li>Javascript</li>
-							<li>Typescript</li>
-							<li>ReactJs</li>
-							<li>NextJs</li>
-							<li>VtexIO</li>
-							<li>NodeJs</li>
-							<li>Heroku</li>
-							<li>Cypress</li>
-							<li>Figma</li>
-							<li>Vercel</li>
-							<li>Jira</li>
-							<li>Graphql</li>
-							<li>Azure Devops</li>
-							<li>Runrun.it</li>
-						</ul>
+						<ToolsComponent tools={TollsArr} />
 						<p>
-							Currently I work in the development of Ecommerces in a Brazilian
+							Currently I work in the development of E-commerces in a Brazilian
 							agency and I&apos;m open to new opportunities.
 						</p>
 					</div>

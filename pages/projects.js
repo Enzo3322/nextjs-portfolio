@@ -1,26 +1,12 @@
-import { projectsArr } from '../mock';
-import { motion } from 'framer-motion';
+import { ProjectsArr } from '../mock';
+
 import styles from '../styles/projects.module.scss';
+import { Cards } from '../components/Cards';
 const Project = () => {
 	return (
 		<main className={styles.projects_main}>
 			<h1>Todos os projetos</h1>
-			<div>
-				{projectsArr.map((a, i) => {
-					return (
-						<motion.a
-							href={`/project?pid=${a.pid}`}
-							whileHover={{ scale: 1.03 }}
-							key={i}
-							className=""
-						>
-							<picture>
-								<img src={a.banner1} alt="" />
-							</picture>
-						</motion.a>
-					);
-				})}
-			</div>
+			<Cards projects={ProjectsArr} />
 		</main>
 	);
 };
