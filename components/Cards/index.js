@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../styles/home-projects.module.scss';
-import { Flags } from '../Flags';
+// import { Flags } from '../Flags';
 
 export const Cards = ({ number, projects }) => {
 	if (!projects) return null;
@@ -14,14 +14,13 @@ export const Cards = ({ number, projects }) => {
 					return (
 						<a
 							href={`/project?pid=${project.pid}`}
-							whileHover={{ scale: 1.03 }}
 							key={i}
 							className={styles.image}
 						>
 							<picture>
 								<img src={project.banner1} alt="" />
 							</picture>
-							<Flags flagsArr={project.stacks} />
+							{/* <Flags flagsArr={project.stacks} /> */}
 						</a>
 					);
 				}
