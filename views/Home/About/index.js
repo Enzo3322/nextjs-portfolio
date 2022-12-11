@@ -20,13 +20,7 @@ export const About = () => {
 
 	return (
 		<section className={styles.about}>
-			<motion.div
-				ref={ref}
-				variants={boxVariant}
-				animate={control}
-				initial="hidden"
-				className={styles.container}
-			>
+			<motion.div className={styles.container}>
 				<div className={styles.left}>
 					<picture>
 						<img src="/me.svg" alt="Enzo Spagnolli" />

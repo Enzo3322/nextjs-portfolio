@@ -1,4 +1,5 @@
 import { Carousel } from '../components/Carousel';
+import { FadeWrapper } from '../components/FadeWrapper';
 import { itensArr } from '../mocks/carousel';
 import { About } from '../views/Home/About';
 import { Hero } from '../views/Home/Hero';
@@ -7,9 +8,15 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
-			<About />
-			<Carousel items={itensArr} />
-			<HomeProjects />
+			<FadeWrapper>
+				<About />
+			</FadeWrapper>
+			<FadeWrapper>
+				<Carousel items={itensArr} />
+			</FadeWrapper>
+			<FadeWrapper>
+				<HomeProjects />
+			</FadeWrapper>
 		</>
 	);
 }
